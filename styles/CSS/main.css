@@ -1,5 +1,10 @@
 body, html {
-  background-color: #60d4d4;
+  background-color: #75dfdf;
+  font-size: 15px;
+}
+
+h1 {
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=main.css.map */

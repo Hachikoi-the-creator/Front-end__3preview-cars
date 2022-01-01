@@ -1,9 +1,13 @@
-$main-color: #040018;
-$secondary-color: #004949;
-$accent-color: #0070cc;
-$background: #60d4d4;
+@use 'index' as *;
 
 body, html {
   background-color: $background;
+  font-size: 15px;
 }
+
+h1 {
+  text-transform: uppercase;
+}
+
+
 
