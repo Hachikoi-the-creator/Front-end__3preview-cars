@@ -9,6 +9,8 @@ html {
 }
 h1 {
   text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  letter-spacing: 1px;
 }
 
 // center all the content
@@ -20,11 +22,17 @@ body {
   margin: auto;
 }
 
+// font-family: 'Big Shoulders Display', cursive;
+// font-family: 'Lexend Deca', sans-serif;
 // layout for boxes
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-auto-rows: 400px;
+
+  p {
+    padding-bottom: 100px;
+  }
   
   :nth-child(1){
     background-color: $sedan-color;
@@ -43,12 +51,14 @@ body {
 
   div {
     padding: 3ch;
+    font-family: 'Lexend Deca';
+    font-weight: 100;
   }
 
   button {
     border: 2px $main-color solid;
     border-radius: 20px;
-    padding: 2ch 3ch;
+    padding: 10px 30px;
     font-weight: 700;
 
     &:hover {
