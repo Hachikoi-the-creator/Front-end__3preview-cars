@@ -14,6 +14,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
@@ -92,10 +93,10 @@ I want to keep working on:
 - Work whit more JS
 - Make more use of the CSS Querys
 
-<!-- ### Useful resources
+### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
+- [Validate HTML](https://validator.w3.org/#validate_by_input) - Found it in front-end-mentor comments
+- [Validate CSS](https://jonassebastianohlsson.com/specificity-graph/) - Found it in front-end-mentor comments
 
 ## Author
 
