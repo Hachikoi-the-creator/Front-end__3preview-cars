@@ -13,6 +13,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-auto-rows: 400px;
+  margin: 7% 0;
 }
 .container :nth-child(1) {
   background-color: #e38826;
@@ -84,6 +85,20 @@ h1 {
 }
 .container button:hover {
   cursor: pointer;
+}
+@media (max-width: 377px) {
+  .container body {
+    margin: 2ch 3ch;
+  }
+  .container .container {
+    margin: 4px 5ch;
+  }
+  .container .sedan {
+    border-radius: 10px 10px 0 0;
+  }
+  .container .lux {
+    border-radius: 0 0 10px 10px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
