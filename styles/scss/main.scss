@@ -7,9 +7,17 @@ html {
   font-size: 15px;
   color: $main-color;
 }
-
 h1 {
   text-transform: uppercase;
+}
+
+// center all the content
+html {
+  display: flex;
+  height: 99vh;
+}
+body {
+  margin: auto;
 }
 
 // layout for boxes
@@ -17,15 +25,11 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-auto-rows: 400px;
-  margin: 7% 0;
   
-  
-
   :nth-child(1){
     background-color: $sedan-color;
     border-radius: 10px 0 0 10px;
     @include buttonsColors($sedan-color);
-
   }
   :nth-child(2){
     background-color: $suv-color;
@@ -51,19 +55,36 @@ h1 {
       cursor: pointer;
     }
   }
+}
 
-  @media (max-width: 377px) {
-    body {
-      margin: 2ch 3ch;
-    }
-    .container {
-      margin: 4px 5ch;
-    }
-    .sedan {
+// from 400 to lower
+@media (max-width: 400px) {
+  
+  body {
+    margin: 0 3ch;
+  }
+
+  .container{
+      grid-template-rows: repeat(3, 520px);
+
+      div p{
+        line-height: 3ch;
+      }
+    
+    :nth-child(1){
       border-radius: 10px 10px 0 0;
+      margin-top: 6ch;
+      p { padding-bottom: 9ch; }
     }
-    .lux {
+
+    :nth-child(2) {
+      p { padding-bottom: 16ch; }
+    }
+
+    :nth-child(3){
       border-radius: 0 0 10px 10px;
+      margin-bottom: 6ch;
+      p { padding-bottom: 9ch; }
     }
   }
 }
