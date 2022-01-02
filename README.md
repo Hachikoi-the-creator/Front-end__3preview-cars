@@ -30,7 +30,8 @@ vUsers should be able to:
 
 ### Screenshot
 
-![ADD LATER ON GITHUB](./screenshot.jpg)
+![Big screen view](./img/big.png)
+![Mobile view](./img/mobile.png)
 
 ### Links
 
