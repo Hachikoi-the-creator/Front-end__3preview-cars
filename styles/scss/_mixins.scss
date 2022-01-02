@@ -1,0 +1,15 @@
+@use 'colors' as *;
+@mixin buttonsColors($btn-background){
+  p{ background-color: $btn-background; }
+  h1{ background-color: $btn-background; }
+  img{ background-color: $btn-background; }
+  
+  button {
+    color: $btn-background;
+
+    &:hover {
+      color: $main-color;
+      background-color: $btn-background;
+    }
+  }
+}
